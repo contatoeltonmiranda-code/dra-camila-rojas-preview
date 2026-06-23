@@ -842,13 +842,9 @@
       gap: var(--space-4);
     }
     .tec-card {
-      background-color: rgba(255, 255, 255, 0.04);
+      background-color: rgba(58,46,42,0.92);
       background-image:
-        linear-gradient(135deg, rgba(58,46,42,0.92), rgba(58,46,42,0.78)),
-        var(--tec-bg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
+        linear-gradient(135deg, rgba(58,46,42,1), rgba(48,38,34,0.95));
       border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: var(--radius-xl);
       padding: var(--space-8);
@@ -869,19 +865,15 @@
     .tec-card > * { position: relative; z-index: 2; }
     .tec-card:hover {
       background-image:
-        linear-gradient(135deg, rgba(58,46,42,0.86), rgba(58,46,42,0.70)),
-        var(--tec-bg);
+        linear-gradient(135deg, rgba(66,52,47,1), rgba(54,43,38,0.97));
       border-color: rgba(237,221,199,0.3);
       transform: translateY(-4px);
     }
     .tec-card:hover::before {
       border-color: rgba(237,221,199,0.35);
     }
-    .tec-card:nth-child(1) { --tec-bg: url('assets/images/casos/6.png'); }
-    .tec-card:nth-child(2) { --tec-bg: url('assets/images/casos/8.png'); }
-    .tec-card:nth-child(3) { --tec-bg: url('assets/images/casos/10.png'); }
-    .tec-card:nth-child(4) { --tec-bg: url('assets/images/casos/12.png'); grid-column: span 1; }
-    .tec-card:nth-child(5) { --tec-bg: url('assets/images/casos/14.png'); grid-column: span 2; }
+    .tec-card:nth-child(4) { grid-column: span 1; }
+    .tec-card:nth-child(5) { grid-column: span 2; }
     .tec-badge {
       display: inline-block;
       padding: 6px 12px;
@@ -2185,13 +2177,13 @@
       <div class="galeria-layout">
         <div class="galeria-fotos reveal">
           <div class="foto-card foto-1">
-            <img src="assets/images/casos/6.png" alt="Resultado de procedimiento estético">
+            <img src="assets/images/espacio/espacio-1.jpg" alt="Consultorio de la Dra. Maria Camila Rojas" loading="lazy">
           </div>
           <div class="foto-card foto-2">
-            <img src="assets/images/casos/8.png" alt="Resultado de procedimiento estético">
+            <img src="assets/images/espacio/espacio-2.jpg" alt="Instalaciones de la clínica" loading="lazy">
           </div>
           <div class="foto-card foto-3">
-            <img src="assets/images/casos/10.png" alt="Resultado de procedimiento estético">
+            <img src="assets/images/espacio/espacio-3.jpg" alt="Espacio de atención a pacientes" loading="lazy">
           </div>
         </div>
         <div class="galeria-texto reveal">
