@@ -391,6 +391,15 @@
     }
     @media (max-width: 600px) {
       .hero-description { font-size: 15px; }
+      /* Hero mobile: background com a Dra. (foto no topo + fundo mauve liso embaixo).
+         Substitui a Prancheta 1 SO no mobile. Foto encaixa no topo, texto desce ~300px. */
+      .hero-bg-wrapper {
+        background-image: url('assets/images/backgrounds/mobiledavid.jpg');
+        background-size: cover;
+        background-position: top center;
+        background-repeat: no-repeat;
+      }
+      .hero-content { padding-top: 300px; }
     }
     .hero-ctas {
       display: flex;
